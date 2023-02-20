@@ -1,0 +1,402 @@
+{
+  "_1": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_2": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_3": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_4": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_5": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_6": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_7": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_8": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_9": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_10": {
+    "condition": "Overcast",
+    "description": "The sky is filled with gray clouds accented in red."
+  },
+  "_11": {
+    "condition": "Light Fog",
+    "description": "A thin fog rolls across the ground. All outside visual perception checks have a -1."
+  },
+  "_12": {
+    "condition": "Heavy Fog",
+    "description": "A thick fog rolls across the ground. All outside visual perception checks have a -2."
+  },
+  "_13": {
+    "condition": "Light Smog",
+    "description": "A thin red smog hangs low in the atmosphere. Make a Resist Torture/Drugs Check DV 10 once per 10 minutes spent outside without a breather on. Fail and you take 5 HP damage."
+  },
+  "_14": {
+    "condition": "Light Smog",
+    "description": "A thin red smog hangs low in the atmosphere. Make a Resist Torture/Drugs Check DV 10 once per 10 minutes spent outside without a breather on. Fail and you take 5 HP damage."
+  },
+  "_15": {
+    "condition": "Light Smog",
+    "description": "A thin red smog hangs low in the atmosphere. Make a Resist Torture/Drugs Check DV 10 once per 10 minutes spent outside without a breather on. Fail and you take 5 HP damage."
+  },
+  "_16": {
+    "condition": "Heavy Smog",
+    "description": "A thick red smog hangs low in the atmosphere. Make a Resist Torture/Drugs Check DV 15 once per 10 minutes spent outside without a breather on. Fail and you take 5 HP damage."
+  },
+  "_17": {
+    "condition": "Heavy Smog",
+    "description": "A thick red smog hangs low in the atmosphere. Make a Resist Torture/Drugs Check DV 15 once per 10 minutes spent outside without a breather on. Fail and you take 5 HP damage."
+  },
+  "_18": {
+    "condition": "Heavy Smog",
+    "description": "A thick red smog hangs low in the atmosphere. Make a Resist Torture/Drugs Check DV 15 once per 10 minutes spent outside without a breather on. Fail and you take 5 HP damage."
+  },
+  "_19": {
+    "condition": "Acid Rain",
+    "description": "Ablates armor by 1 SP per hour you spend in it and your car needs a new paint job."
+  },
+  "_20": {
+    "condition": "Heavy Acid Rain",
+    "description": "Ablates armor by 1 SP per minute you spend in it and your car loses 1 SDP per 15 minutes."
+  },
+  "_21": {
+    "condition": "Light Rain",
+    "description": "A light rain falls from the sky."
+  },
+  "_22": {
+    "condition": "Heavy Rain",
+    "description": "Heavy rain falls from the sky."
+  },
+  "_23": {
+    "condition": "Thunderstorm",
+    "description": "Thunder & lightning explodes as heavy rain falls from the sky."
+  },
+  "_24": {
+    "condition": "Blood Mist",
+    "description": "The first signs that a blood rain is coming. Sticky, filthy, toxic mist falls from the sky."
+  },
+  "_25": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_26": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_27": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_28": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_29": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_30": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_31": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_32": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_33": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_34": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_35": {
+    "condition": "Blood Rain",
+    "description": "A filthy toxic thick red sticky rain falls from the sky. All driving checks have a -2 modifier."
+  },
+  "_36": {
+    "condition": "Radiation Wave",
+    "description": "A waves of radiation periodically hit the area. Randomly make a Cybertech Check DV 15 or one random piece of cyberware malfunctions for 1 minute."
+  },
+  "_37": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_38": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_39": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_40": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_41": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_42": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_43": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_44": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_45": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_46": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_47": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_48": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_49": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_50": {
+    "condition": "Heat Wave",
+    "description": "Temperatures rise and hit the area hard and fast. Any heavy physical activity in armor > SP 7 requires a DC 13 Endurance Check. Fail and you take 5 HP damage from exhaustion."
+  },
+  "_51": {
+    "condition": "Cool Clear",
+    "description": "A very rare cool clear day with accents of red."
+  },
+  "_52": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_53": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_54": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_55": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_56": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_57": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_58": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_59": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_60": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_61": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_62": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_63": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_64": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_65": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_66": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_67": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_68": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_69": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day. It's NICE out."
+  },
+  "_70": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_71": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_72": {
+    "condition": "Sunny haze",
+    "description": "An average red hazy bright day."
+  },
+  "_73": {
+    "condition": "Cold Wave",
+    "description": "Temperatures drop rapidly and hit hard."
+  },
+  "_74": {
+    "condition": "Frost Wave",
+    "description": "Frost and slush covers most surfaces today."
+  },
+  "_75": {
+    "condition": "Snow Storm",
+    "description": "High winds and thick snow fills the atmosphere. All outside visual perception checks have a -1."
+  },
+  "_76": {
+    "condition": "Light Ashfall",
+    "description": "A thin mix of white, grey and black ash falls from the red sky. All outside visual perception checks have a -2."
+  },
+  "_77": {
+    "condition": "Light Ashfall",
+    "description": "A thin mix of white, grey and black ash falls from the red sky. All outside visual perception checks have a -2."
+  },
+  "_78": {
+    "condition": "Light Ashfall",
+    "description": "A thin mix of white, grey and black ash falls from the red sky. All outside visual perception checks have a -2."
+  },
+  "_79": {
+    "condition": "Light Ashfall",
+    "description": "A thin mix of white, grey and black ash falls from the red sky. All outside visual perception checks have a -2."
+  },
+  "_80": {
+    "condition": "Light Ashfall",
+    "description": "A thin mix of white, grey and black ash falls from the red sky. All outside visual perception checks have a -2."
+  },
+  "_81": {
+    "condition": "Light Ashfall",
+    "description": "A thin mix of white, grey and black ash falls from the red sky. All outside visual perception checks have a -2."
+  },
+  "_82": {
+    "condition": "Light Ashfall",
+    "description": "A thin mix of white, grey and black ash falls from the red sky. All outside visual perception checks have a -2."
+  },
+  "_83": {
+    "condition": "Light Winds",
+    "description": "A light breeze cuts across the area."
+  },
+  "_84": {
+    "condition": "High Winds",
+    "description": "Strong winds whip across the area. All driving checks have a -1 modifier."
+  },
+  "_85": {
+    "condition": "High Winds",
+    "description": "Strong winds whip across the area. All driving checks have a -1 modifier."
+  },
+  "_86": {
+    "condition": "High Winds",
+    "description": "Strong winds whip across the area. All driving checks have a -1 modifier."
+  },
+  "_87": {
+    "condition": "High Winds",
+    "description": "Strong winds whip across the area. All driving checks have a -1 modifier."
+  },
+  "_88": {
+    "condition": "High Winds",
+    "description": "Strong winds whip across the area. All driving checks have a -1 modifier."
+  },
+  "_89": {
+    "condition": "High Winds",
+    "description": "Strong winds whip across the area. All driving checks have a -1 modifier."
+  },
+  "_90": {
+    "condition": "Sand Storm",
+    "description": "Strong, violent winds whip sand around aggressively. All driving checks in the badlands have a -1 modifier."
+  },
+  "_91": {
+    "condition": "Sand Storm",
+    "description": "Strong, violent winds whip sand around aggressively. All driving checks in the badlands have a -1 modifier."
+  },
+  "_92": {
+    "condition": "Sand Storm",
+    "description": "Strong, violent winds whip sand around aggressively. All driving checks in the badlands have a -1 modifier."
+  },
+  "_93": {
+    "condition": "Sand Storm",
+    "description": "Strong, violent winds whip sand around aggressively. All driving checks in the badlands have a -1 modifier."
+  },
+  "_94": {
+    "condition": "Sand Storm",
+    "description": "Strong, violent winds whip sand around aggressively. All driving checks in the badlands have a -1 modifier."
+  },
+  "_95": {
+    "condition": "Sand Storm",
+    "description": "Strong, violent winds whip sand around aggressively. All driving checks in the badlands have a -1 modifier."
+  },
+  "_96": {
+    "condition": "Electric Storm",
+    "description": "A storm of lighting and waves of electricity. Randomly make a Cybertech Check DV 10 or one random piece of cyberware malfunctions for 1 minute."
+  },
+  "_97": {
+    "condition": "Firestorm",
+    "description": "A violent storm with random fire cyclones. If in the badlands, randomly there is a 2 in 10 chance you are hit by a fire cyclone and take 4 HP fire damage."
+  },
+  "_98": {
+    "condition": "Tornado",
+    "description": "Tornadoes randomly appear in the local areas. If in the badlands, randomly there is a 2 in 10 chance you are hit by a tornado. (GM discretion on checks and damages to both players and/or vehicles)"
+  },
+  "_99": {
+    "condition": "Tropical Storm",
+    "description": "Hot winds and heavy rain."
+  },
+  "_100": {
+    "condition": "Hurricane",
+    "description": "Violent winds and heavy rain whip around."
+  }
+}

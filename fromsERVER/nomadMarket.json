@@ -1,0 +1,74 @@
+{
+  "Transport": {
+    "_0": "City-Wide Ground (Premium)",
+    "_1": "City-Wide Water (Premium)",
+    "_2": "City-Wide Air (Premium)",
+    "_3": "State-Wide Ground (Expensive)",
+    "_4": "State-Wide Air (Very Expensive)",
+    "_5": "Region-Wide Ground (Very Expensive)",
+    "_6": "Region-Wide Air (Luxury)",
+    "_7": "Country-Wide Ground (Luxury)",
+    "_8": "Country-Wide Air (Super Luxury)",
+    "_9": "Inter-Continental Sea or Air (Super Luxury)"
+  },
+  "Medicine": {
+    "_0": "Street Drugs (20eb>)",
+    "_1": "Street Drugs (50eb>)",
+    "_2": "Street Drugs (100eb>)",
+    "_3": "Street Drugs (1,000eb>)",
+    "_4": "Poor Quality Alcohol (10eb)",
+    "_5": "Standard Quality Alcohol (20eb)",
+    "_6": "Excellent Quality Alcohol (100eb)",
+    "_7": "Pharmaceuticals (100eb>)",
+    "_8": "Pharmaceuticals (500eb>)",
+    "_9": "Pharmaceuticals (1,000eb+)"
+  },
+  "Weapons": {
+    "_0": "Any Machinegun of GMs Choice",
+    "_1": "Any Gatling Gun of GMs Choice",
+    "_2": "Any Autocannon of GMs Choice",
+    "_3": "Any Cannon of GMs Choice",
+    "_4": "Any Railgun of GMs Choice",
+    "_5": "Any Rockets of GMs Choice",
+    "_6": "Anti-Air Missiles (12,000eb)",
+    "_7": "Any Torpedoes of GMs Choice",
+    "_8": "Any Mortars of GMs Choice",
+    "_9": "Any Mines/Explosives of GMs Choice"
+  },
+  "Upgrades": {
+    "_0": "Moto Rank 1 Upgrades (1,000eb>)",
+    "_1": "Moto Rank 2 Upgrades (2,000eb>)",
+    "_2": "Moto Rank 3 Upgrades (3,000eb>)",
+    "_3": "Moto Rank 4 Upgrades (4,000eb>)",
+    "_4": "Moto Rank 5 Upgrades (5,000eb>)",
+    "_5": "Moto Rank 6 Upgrades (6,000eb>)",
+    "_6": "Moto Rank 7 Upgrades (7,000eb>)",
+    "_7": "Moto Rank 8 Upgrades (8,000eb>)",
+    "_8": "Moto Rank 9 Upgrades (9,000eb>)",
+    "_9": "Moto Rank 10 Upgrades (10,000eb>)"
+  },
+  "Vehicles": {
+    "_0": "Moto Rank 1 Vehicles",
+    "_1": "Moto Rank 2  Vehicles",
+    "_2": "Moto Rank 3 Vehicles",
+    "_3": "Moto Rank 4 Vehicles",
+    "_4": "Moto Rank 5 Vehicles",
+    "_5": "Moto Rank 6 Vehicles",
+    "_6": "Moto Rank 7 Vehicles",
+    "_7": "Moto Rank 8 Vehicles",
+    "_8": "Moto Rank 9 Vehicles",
+    "_9": "Moto Rank 10 Vehicles"
+  },
+  "NightMarket": {
+    "_0": "Roll on Night Market Table",
+    "_1": "Roll on Night Market Table",
+    "_2": "Roll on Night Market Table",
+    "_3": "Roll on Night Market Table",
+    "_4": "Roll on Night Market Table",
+    "_5": "Roll on Night Market Table",
+    "_6": "Roll on Night Market Table",
+    "_7": "Roll on Night Market Table",
+    "_8": "Roll on Night Market Table",
+    "_9": "Roll on Night Market Table"
+  }
+}

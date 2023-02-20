@@ -1,0 +1,259 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "OpenAPI Docs for VampyreBytes's Cyberpunk API.",
+    "description": "The Cyberpunk API  is unofficial content provided under the Homebrew Content Policy of R. Talsorian Games and is not approved or endorsed by RTG. This content references materials that are the property of R. Talsorian Games and its licensees. This content specifically includes uses content from Cyberpunk Red core rule book, Night City Weather Conditions (Official RTG supplement), and fan supplements from CyberpunkUncensored.com (currently: Weather Conditions by Rob Mulligan and Vehicles of Red by CapriciousNature)",
+    "contact": {
+      "name": "Vampyre Bytes",
+      "email": "admin@vampyrebytes.com"
+    },
+    "version": "1.1.1"
+  },
+  "paths": {
+    "/openapi.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "OpenAPI 3 documentation."
+          }
+        }
+      }
+    },
+    "/name/{gender}/{firstLastFull}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "gender",
+            "in": "path",
+            "description": ">\n    Gender:\n     * `male` - Names typically belonging to males as well as a few neutral that are common among AMAB persons. (This works with 'first', 'full', and null.)\n     * `female` - Names typically belonging to females as well as a few neutral that are common among AFAB persons. (This works with 'first', 'full', and null.)\n     * `neutral` - Names frequently chosen for being gender-neutral. (Please note that this only works with 'full' or 'first'. Does not work with null.)\n     * `null` - Currently, only Male and Female names are available at this time. This does include several names that might be considered gender neutral.",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string",
+              "nullable": true,
+              "enum": [
+                "male",
+                "female",
+                "neutral",
+                null
+              ]
+            }
+          },
+          {
+            "name": "firstLastFull",
+            "in": "path",
+            "description": ">\n    Name Part:\n     * `first` - Given Name\n     * `last` - Surname only (gender is ignored.)\n     * `full` - Full Name (Given name + Surname only)\n     * `null` - Full Name, possibly also including Titles and Suffixes",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string",
+              "nullable": true,
+              "enum": [
+                "first",
+                "last",
+                "full",
+                null
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Generates a random 'normal' name."
+          }
+        }
+      }
+    },
+    "/voice/{laban}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "laban",
+            "in": "path",
+            "description": ">\n    Laban:\n     * `true` - Generates only Laban base voice types. (But includes the main Laban Type descriptors. However, it may also include subtypes and/or quirks.)\n     * `false` - Generates a charcater voice, based on the Laban variants, but includes all variants, not only teh Laban-specific variations. Also may include one or more subtypes and/or quirks",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "boolean",
+              "nullable": false,
+              "enum": [
+                true,
+                false
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Generates a random Voice Pattern (add 'laban' to limit the base voice pattern to a Laban style)."
+          }
+        }
+      }
+    },
+    "/generate/nightmarket": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Generates a Night Market using the rules found in the core Cyberpunk Red rulebook by R. Talsorian Games."
+          }
+        }
+      }
+    },
+    "/generate/nc_weather/{month}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "month",
+            "in": "path",
+            "description": "Month: Use the 1-based Integer value for the month, 1=January, 2=February, etc.",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "integer",
+              "nullable": false,
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Generates the Current Temperature and Conditions in Night City using the rules found in the official Night City Weather supplement by R. Talsorian Games."
+          }
+        }
+      }
+    },
+    "/generate/vor/nomadmarket/{specialty}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "specialty",
+            "in": "path",
+            "description": "Nomad Family Specialty: If the Family has a Specialty, only goods from that specialty will be found at the Nomad Market.",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string",
+              "nullable": true,
+              "enum": [
+                null,
+                "Transport",
+                "Medicine",
+                "Weapons",
+                "Upgrades",
+                "Vehicles",
+                "NightMarket"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Generates a Nomad Market using the rules found in the fan supplement Vehicles of Red by Capricious Nature."
+          }
+        }
+      }
+    },
+    "/generate/nightmarketvor/{nomad}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "nomad",
+            "in": "path",
+            "description": ">\n     Nomad Rank: 0-10. NB: Nomad must be at least Rank 1 before this will alter the table.\n     Use 0 or just use the Core Book Night Market API to bypass the Nomad Add-On.",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "integer",
+              "nullable": false,
+              "enum": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ">\n     Generates a Night Market using the rules found in the core Cyberpunk Red rulebook by\n     R. Talsorian Games, but with Nomad add-ons, per the rules found in the fan supplement\n     Vehicles of Red by Capricious Nature."
+          }
+        }
+      }
+    },
+    "/generate/cpu/weather": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Generates a Weather Condition using the rules found in the fan supplement Weather Conditions supplement by Rob Mulligan of Cybernation Uncensored."
+          }
+        }
+      }
+    },
+    "/generate/custom_weather/{month}": {
+      "get": {
+        "parameters": [
+          {
+            "name": "month",
+            "in": "path",
+            "description": " Month: Use the 1-based Integer value for the month, 1=January, 2=February, etc.",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "integer",
+              "nullable": false,
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ">\n     Generates the Current Temperature in Night City using the rules found in the official Night City Weather supplement by R. Talsorian Games.\n     Also generates Current Conditions and Effects from Rob Mulligan's fan supplement 'Cybernation Uncensored Weather Conditions'"
+          }
+        }
+      }
+    },
+    "/generate/campaignhook": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Generates a Campaign scenario from Rob Mulligan's fan supplement 'Cybernation Uncensored Quick Campaign Builder'"
+          }
+        }
+      }
+    }
+  }
+}

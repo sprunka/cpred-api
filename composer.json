@@ -1,0 +1,38 @@
+{
+  "name": "sprunka/cpred-api",
+  "description": "This is an API for use with Cyberpunk Red TTRPG by R. Talsorian.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "version": "1.1.1",
+  "authors": [
+    {
+      "name": "Sean Prunka",
+      "email": "sprunka@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "slim/slim": "^4.5",
+    "slim/psr7": "^1.2",
+    "php-di/php-di": "dev-master",
+    "selective/basepath": "dev-master",
+    "zircote/swagger-php": "^3.1",
+    "fakerphp/faker": "^1.15"
+  },
+  "require-dev" : {
+  "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^9.4",
+    "phpmd/phpmd": "^2.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "CyberpunkRedAPI\\": "src/CyberpunkRedAPI"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CyberpunkRedAPI\\Test\\": "tests/"
+    }
+  }
+}

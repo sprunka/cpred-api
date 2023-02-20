@@ -1,0 +1,91 @@
+{
+  "Dec-Feb_temp": {
+    "_0": "Cold (Around 35°F/2°C)",
+    "_1": "Cold (Around 40°F/4°C)",
+    "_2": "Cold (Around 40°F/4°C)",
+    "_3": "Cool (Around 50°F/10°C)",
+    "_4": "Cool (Around 50°F/10°C)",
+    "_5": "Cool (Around 60°F/15°C)"
+  },
+  "Dec-Feb_cond": {
+    "_0": "Clear",
+    "_1": "Light Rain/Sleet",
+    "_2": "Overcast",
+    "_3": "Overcast",
+    "_4": "Heavy Rain/Sleet",
+    "_5": "Strange Weather"
+  },
+  "Mar-May_temp": {
+    "_0": "Cold (Around 40°F/4°C)",
+    "_1": "Cool (Around 50°F/10°C)",
+    "_2": "Cool (Around 50°F/10°C)",
+    "_3": "Cool (Around 50°F/10°C)",
+    "_4": "Warm (Around 60°F/15°C)",
+    "_5": "Warm (Around 70°F/21°C)"
+  },
+  "Mar-May_cond": {
+    "_0": "Clear",
+    "_1": "Light Rain",
+    "_2": "Overcast",
+    "_3": "Light Rain",
+    "_4": "Heavy Rain",
+    "_5": "Strange Weather"
+  },
+  "Jun-Aug_temp": {
+    "_0": "Warm (Around 60°F/15°C)",
+    "_1": "Warm (Around 70°F/21°C)",
+    "_2": "Warm (Around 70°F/21°C)",
+    "_3": "Hot (Around 80°F/27°C)",
+    "_4": "Hot (Around 80°F/27°C)",
+    "_5": "Hot (Around 90°F/32°C)"
+  },
+  "Jun-Aug_cond": {
+    "_0": "Light Rain",
+    "_1": "Clear",
+    "_2": "Overcast",
+    "_3": "Overcast",
+    "_4": "Clear",
+    "_5": "Strange Weather"
+  },
+  "Sep-Nov_temp": {
+    "_0": "Cool (Around 40°F/4°C)",
+    "_1": "Warm (Around 60°F/15°C)",
+    "_2": "Warm (Around 60°F/15°C)",
+    "_3": "Warm (Around 60°F/15°C)",
+    "_4": "Warm (Around 70°F/21°C)",
+    "_5": "Hot (Around 80°F/27°C)"
+  },
+  "Sep-Nov_cond": {
+    "_0": "Light Rain/Sleet",
+    "_1": "Clear",
+    "_2": "Overcast",
+    "_3": "Overcast",
+    "_4": "Clear",
+    "_5": "Strange Weather"
+  },
+  "Strange_cond": {
+    "_0": "Radioactive Windstorm",
+    "_1": "Ash Storm",
+    "_2": "Flooding",
+    "_3": "Blood Rain",
+    "_4": "Acid Rain",
+    "_5": "Deadly Thunderstorm",
+    "_6": "Inversion Smog",
+    "_7": "Cold Snap (if Temperature Cool or Cold)\nOR\nHeat Wave (if Temperature Warm or Hot)",
+    "_8": "Dust Storm",
+    "_9": "Blackout"
+
+  },
+  "Strange_time": {
+    "_0": "1d6 x 10 Minutes",
+    "_1": "1d6 x 10 Minutes",
+    "_2": "1d6 Days",
+    "_3": "1d6 Hours",
+    "_4": "1d6 Hours",
+    "_5": "1d6 x 10 Minutes",
+    "_6": "1d6 Days",
+    "_7": "1d6 Days",
+    "_8": "1d6 x 10 Minutes",
+    "_9": "1d6 Days"
+  }
+}
